@@ -6,7 +6,7 @@ import com.biz.lombok.domain.StudentVO;
 
 public abstract class StudentViewServiceABS {
 
-	private List<StudentVO> stdList;
+	protected List<StudentVO> stdList;
 	
 	/*
 	 * 외부에서 값 주입하기

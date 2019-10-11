@@ -7,11 +7,12 @@ import com.biz.lombok.domain.StudentVO;
 
 public class StudentViewServiceV1 extends StudentViewServiceABS {
 
-	List<StudentVO> stdList = new ArrayList<StudentVO>();
+	// List<StudentVO> stdList;
 
 	@Override
 	public void view() {
 
+		
 		System.out.println("====================================================================");
 		System.out.println("학생정보 v1");
 		System.out.println("==========================================================================================");

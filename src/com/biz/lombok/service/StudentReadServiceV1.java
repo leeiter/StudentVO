@@ -15,7 +15,7 @@ import lombok.Getter;
 @Getter
 public class StudentReadServiceV1 {
 
-	private List<StudentVO> stdList;
+	private List<StudentVO> stdList = new ArrayList<StudentVO>();
 	
 	public List<StudentVO> getStdList() {
 		return this.stdList;
@@ -26,7 +26,6 @@ public class StudentReadServiceV1 {
 	 */
 	public void readStudent(String fileName) throws IOException {
 		
-		stdList = new ArrayList<StudentVO>();
 		
 		FileReader fileReader;
 		BufferedReader buffer;
